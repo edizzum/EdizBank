@@ -15,9 +15,4 @@ contract Ediz721 is ERC721{
         require(tokenId < maxSupply, "Over take");
         _mint(receiver, tokenId);
     }
-
-
-
-    //IPFS nedir araştır
-    //nftlerin fotolarının değiştirilememesini sağlar
 }
